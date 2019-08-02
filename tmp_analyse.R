@@ -67,7 +67,3 @@ db_cl %>%
                    x = as.Date("1930-01-01"), xend = as.Date("1990-01-01")), col = "blue") +
   geom_segment(aes(y = dgn20min$dgn_20_min[1], yend = dgn20min$dgn_20_min[1],
                    x = as.Date("1991-01-01"), xend = as.Date("2018-01-01")), col = "red") 
-
-  
-
-  
